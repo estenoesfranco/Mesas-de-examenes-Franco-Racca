@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas Proa</title>
+    <link rel="stylesheet" href="/styles.css"> 
+
+</head>
+<body>
+
+    <header>
+        <img src="/assets/logo proa.jpeg" alt="" id="logo">
+        <h1>Gestor de Tareas ProA</h1>
+    </header>
+
+    <main>
+        <section id="formulario-tarea">
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Nueva tarea..." required>
+                <button type="submit">Agregar una Tarea</button>
+            </form>
+        </section>
+
+        <section id="lista-tareas">
+            <h2>Mis Tareas</h2>
+            <ul id="tasks-container"></ul>
+        </section>
+
+        <section id="contador">
+            <p>Total de tareas: <span id="total-tasks">0</span></p>
+            <p>Tareas completadas: <span id="completed-tasks">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p> Hecho con cariño </p>
+    </footer>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

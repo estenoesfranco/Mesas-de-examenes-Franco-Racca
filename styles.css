@@ -1,0 +1,49 @@
+body {
+
+    background: #ff007b;
+    background: linear-gradient(90deg, rgba(255, 0, 123, 1) 35%, rgba(255, 248, 181, 1) 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+ height: 10px;
+width: 10px;
+size: 10px;
+}
+
+
+header, footer {
+    background: #0091ff;
+    background: linear-gradient(90deg, rgba(0, 145, 255, 1) 35%, rgba(255, 0, 0, 1) 100%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+    border: solid;
+    border: rgb(255, 149, 202);
+    border: 20px;
+}
+
+main {
+    padding: 2em;
+}
+
+#formulario-tarea {
+    margin-bottom: 2em;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffb6db;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(109, 3, 35);
+}
